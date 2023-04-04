@@ -1,5 +1,5 @@
 from django.db import models
 
 # Create your models here.
-class Spells(models.Model):
+class Background(models.Model):
     name = models.CharField(max_length=64)
